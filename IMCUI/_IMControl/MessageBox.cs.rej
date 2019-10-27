@@ -1,0 +1,9 @@
+diff a/_IMControl/MessageBox.cs b/_IMControl/MessageBox.cs	(rejected hunks)
+@@ -22,6 +22,7 @@
+     [Tooltip("按钮间距")]
+     public float ButtonSpacing = 90f;
+     public List<IMCButton> buttonChilds = new List<IMCButton>();
++    public UnityAction closeBack;
+ 
+     #endregion //PUBLIC_VARIABLES
+     private UnityAction<int> choiceBack;

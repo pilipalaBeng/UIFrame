@@ -1,0 +1,36 @@
+using UnityEngine;
+using System.Collections;
+using IMCUI.UI;
+
+public class #CreateIMCFormName#: IMCForm 
+{
+   public void InitializeEvent()
+    {
+
+    }
+
+    public void ShowEvent()
+    {
+		
+    }
+
+    public void CloseEvent()
+    {
+
+    }
+
+    public void UnInitEvent()
+    {
+
+    }
+    
+    protected override void Start()
+    {
+
+    }
+
+    void Update()
+    {
+
+    }
+}
